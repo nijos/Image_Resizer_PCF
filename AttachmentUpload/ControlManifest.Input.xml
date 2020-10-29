@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="nj" constructor="AttachmentUpload" version="1.0.38" display-name-key="ImageResizer" description-key="Resize images on the fly and save to notes" control-type="standard">
+    <type-group name="flds">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.Phone</type>
+      <type>SingleLine.Email</type>
+      <type>SingleLine.Ticker</type>
+      <type>TwoOptions</type>
+      <type>Whole.None</type>
+      <type>Currency</type>
+      <type>FP</type>
+      <type>Decimal</type>
+    </type-group>
+    <property name="Attribute" display-name-key="Attribute" description-key="Select an Attribute" of-type-group="flds" usage="bound" required="true" />
+    <property name="ImageHeight" display-name-key="Image Height" description-key="Heigh of resized image" usage="input" required="true" of-type="Whole.None" />
+     <property name="ImageWidth" display-name-key="Image Width" description-key="Width of teh resized image" usage="input" required="true" of-type="Whole.None" />
+      <property name="ImageQuality" display-name-key="Image Quality Percentage" description-key="Please enter values between 50-100" usage="input" required="true" of-type="Whole.None" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="AttachmentUploader.css" order="2" />
+      <!-- English -->
+      <resx path="AttachmentUpload.1033.resx" version="1.0.0" />
+      <!-- Norwegian (Bokmal)	 -->
+      <resx path="AttachmentUpload.1044.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
