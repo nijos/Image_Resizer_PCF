@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="nj" constructor="AttachmentUpload" version="1.0.38" display-name-key="ImageResizer" description-key="Resize images on the fly and save to notes" control-type="standard">
+  <control namespace="nj" constructor="AttachmentUpload" version="1.0.42" display-name-key="ImageResizer" description-key="Resize images on the fly and save to notes" control-type="standard">
     <type-group name="flds">
       <type>SingleLine.Text</type>
       <type>SingleLine.Phone</type>

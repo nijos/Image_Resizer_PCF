@@ -50,9 +50,7 @@ export const AttachmentUploader: React.FC<UploadProps> = (uploadProps: UploadPro
             reader.onerror = error => reject(error);
         });
 
-        const resizeImage= async()=>{
-
-        }
+       
        // the reizer method
         const resizeFile = async (file:any) => new Promise(resolve => {    
           Resizer.imageFileResizer(file,uploadProps.imgWidth,uploadProps.imgHeight, 'JPEG', uploadProps.imgQuality, 0,
@@ -100,10 +98,15 @@ export const AttachmentUploader: React.FC<UploadProps> = (uploadProps: UploadPro
                 setCurrentUploadCount(i);
                 let file=acceptedFiles[i] as any;
                 let base64Data=await toBase64(acceptedFiles[i]);
-                let base64DataStr=base64Data as string;               
-                const image = await resizeFile(file) as string;// resize and get the base64 string.
+                let base64DataStr=base64Data as string; 
+                
                
-              var base64 =image.replace(/^data:.+;base64,/, '');
+                  const image = await resizeFile(file) as string;// resize and get the base64 string.
+                var  base64 =image.replace(/^data:.+;base64,/, '');
+                
+              //  base64 =base64DataStr.replace(/^data:.+;base64,/, '');
+             
+              
                let fileInfo:FileInfo ={name:file.name,type:file.type,body:base64};
               let entityId = uploadProps.id;
               let entityName = uploadProps.entityName;
@@ -126,6 +129,14 @@ export const AttachmentUploader: React.FC<UploadProps> = (uploadProps: UploadPro
           }
 
             setTotalFileCount(0);
+            // Uncomment if you need auto refresh timeline
+            //  let xrmObj: any = (window as any)["Xrm"];
+            //  if (xrmObj && xrmObj.Page && "Timeline") {
+            //     var controlToRefresh = xrmObj.Page.getControl("Timeline");
+            //      if (controlToRefresh) {
+            //          controlToRefresh.refresh();
+            //     }
+            //  }
             
         }
 
@@ -176,8 +187,8 @@ export const AttachmentUploader: React.FC<UploadProps> = (uploadProps: UploadPro
               <div>
                 {
                   isDragActive ?
-                    <p>{translate("drop_files_here")}</p> :
-                    <p>{translate("drop_files_here_or_click_to_upload")}</p>
+                    <p>{translate("drop_images_here")}</p> :
+                    <p>{translate("drop_images_here_or_click_to_upload")}</p>
                 }
               </div>
              

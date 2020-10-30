@@ -1,0 +1,19 @@
+2020-10-30 13:19:11.919 - Info	
+Packing G:\works\PCFS\ImageResizer\AttachmentUploader\AttachmentUpload\ResizerSolution\obj\Release\Metadata to bin\Release\ResizerSolution.zip
+
+2020-10-30 13:19:11.932 - Info	Processing Component: Entities
+2020-10-30 13:19:11.935 - Info	Processing Component: Roles
+2020-10-30 13:19:11.939 - Info	Processing Component: Workflows
+2020-10-30 13:19:11.940 - Info	Processing Component: FieldSecurityProfiles
+2020-10-30 13:19:11.940 - Info	Processing Component: Templates
+2020-10-30 13:19:11.941 - Info	Processing Component: EntityMaps
+2020-10-30 13:19:11.941 - Info	Processing Component: EntityRelationships
+2020-10-30 13:19:11.947 - Info	Processing Component: OrganizationSettings
+2020-10-30 13:19:11.948 - Info	Processing Component: optionsets
+2020-10-30 13:19:11.949 - Info	Processing Component: CustomControls
+2020-10-30 13:19:11.960 - Info	 - nj.AttachmentUpload
+2020-10-30 13:19:13.099 - Info	Processing Component: SolutionPluginAssemblies
+2020-10-30 13:19:13.101 - Info	Processing Component: EntityDataProviders
+2020-10-30 13:19:13.189 - Info	
+Managed Pack complete.
+
