@@ -1,6 +1,6 @@
 # Image_Resizer_PCF
 A PCF control to easily upload and resize one or more Images on Dynamics365 records. Works with Email and normal Notes attachments.
-# Images are resized on the fly before saving to Dynamics 365 and saves your cloud storage
+## Images are resized on the fly before saving to Dynamics 365 and saves your cloud storage
 
 ## Installation steps
 

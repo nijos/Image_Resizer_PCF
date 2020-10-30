@@ -1,1 +1,2 @@
 G:\works\PCFS\ImageResizer\AttachmentUploader\AttachmentUpload\ResizerSolution\obj\Release\ResizerSolution.cdsproj.CoreCompileInputs.cache
+G:\works\PCFS\ImageResizer\AttachmentUploader\ImageUpload\ResizerSolution\obj\Release\ResizerSolution.cdsproj.CoreCompileInputs.cache

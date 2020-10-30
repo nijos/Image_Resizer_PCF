@@ -196,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\AttachmentUpload\\ResizerSolution\\ResizerSolution.cdsproj",
+      "projectUniqueName": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\ImageUpload\\ResizerSolution\\ResizerSolution.cdsproj",
       "projectName": "ResizerSolution",
-      "projectPath": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\AttachmentUpload\\ResizerSolution\\ResizerSolution.cdsproj",
+      "projectPath": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\ImageUpload\\ResizerSolution\\ResizerSolution.cdsproj",
       "packagesPath": "C:\\Users\\Galaxy76\\.nuget\\packages\\",
-      "outputPath": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\AttachmentUpload\\ResizerSolution\\obj\\",
+      "outputPath": "G:\\works\\PCFS\\ImageResizer\\AttachmentUploader\\ImageUpload\\ResizerSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Galaxy76\\AppData\\Roaming\\NuGet\\NuGet.Config",

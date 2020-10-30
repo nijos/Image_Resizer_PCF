@@ -625,3 +625,22 @@ Packing G:\works\PCFS\ImageResizer\AttachmentUploader\AttachmentUpload\ResizerSo
 2020-10-30 13:15:50.798 - Info	
 Unmanaged Pack complete.
 
+2020-10-30 13:42:05.929 - Info	
+Packing G:\works\PCFS\ImageResizer\AttachmentUploader\ImageUpload\ResizerSolution\obj\Debug\Metadata to bin\Debug\ResizerSolution.zip
+
+2020-10-30 13:42:05.953 - Info	Processing Component: Entities
+2020-10-30 13:42:05.956 - Info	Processing Component: Roles
+2020-10-30 13:42:05.959 - Info	Processing Component: Workflows
+2020-10-30 13:42:05.960 - Info	Processing Component: FieldSecurityProfiles
+2020-10-30 13:42:05.960 - Info	Processing Component: Templates
+2020-10-30 13:42:05.963 - Info	Processing Component: EntityMaps
+2020-10-30 13:42:05.963 - Info	Processing Component: EntityRelationships
+2020-10-30 13:42:05.969 - Info	Processing Component: OrganizationSettings
+2020-10-30 13:42:05.970 - Info	Processing Component: optionsets
+2020-10-30 13:42:05.970 - Info	Processing Component: CustomControls
+2020-10-30 13:42:05.993 - Info	 - nj.AttachmentUpload
+2020-10-30 13:42:06.157 - Info	Processing Component: SolutionPluginAssemblies
+2020-10-30 13:42:06.159 - Info	Processing Component: EntityDataProviders
+2020-10-30 13:42:06.294 - Info	
+Unmanaged Pack complete.
+
